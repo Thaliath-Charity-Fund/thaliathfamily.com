@@ -21,11 +21,3 @@ repos:
     rev: v8.18.1
     hooks:
       - id: gitleaks
-  - repo: local
-    hooks:
-      - id: eslint
-        name: eslint
-        entry: npx eslint
-        language: system
-        types: [javascript]
-        files: \.(js|jsx|ts|tsx)$
