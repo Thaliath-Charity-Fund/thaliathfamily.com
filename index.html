@@ -2,11 +2,11 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
       name="description"
-      content="Discover the rich heritage and legacy of the Thaliath family, rooted in Syrian Catholic traditions in Puthenpally, Varapuzha, Kerala."
+      content="Discover the heritage of the Thaliath family, rooted in Syrian Catholic traditions in Puthenpally, Varapuzha, on the banks of the Periyar River in Kerala."
     />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
       name="keywords"
       content="Thaliath family, heritage, Syrian Catholic, Puthenpally, Varapuzha, Periyar River, Kerala"
@@ -33,30 +33,86 @@
       href="favicon/favicon-16x16.png"
     />
     <link rel="manifest" href="favicon/site.webmanifest" />
-    <title>Thaliath Family - Heritage & Legacy</title>
-    <meta property="og:url" content="https://thaliathfamily.com/" />
+    <title>Thaliath Family | Heritage of Puthenpally, Varapuzha</title>
+    <link rel="canonical" href="https://thaliathfamily.com/" />
+    <meta property="og:site_name" content="Thaliath Family" />
+    <meta property="og:locale" content="en_IN" />
     <meta property="og:type" content="website" />
-    <meta property="og:title" content="Thaliath Family - Heritage & Legacy" />
+    <meta property="og:url" content="https://thaliathfamily.com/" />
+    <meta
+      property="og:title"
+      content="Thaliath Family | Heritage of Puthenpally, Varapuzha"
+    />
     <meta
       property="og:description"
-      content="Discover the rich heritage and legacy of the Thaliath family, rooted in Syrian Catholic traditions in Puthenpally, Varapuzha, Kerala, India"
+      content="Discover the heritage of the Thaliath family, rooted in Syrian Catholic traditions in Puthenpally, Varapuzha, on the banks of the Periyar River in Kerala."
     />
     <meta
       property="og:image"
-      content="https://raw.githubusercontent.com/Thaliath-Charity-Fund/thaliathfamily.com/refs/heads/main/favicon/og.png"
+      content="https://thaliathfamily.com/favicon/og-home.jpg"
+    />
+    <meta
+      property="og:image:secure_url"
+      content="https://thaliathfamily.com/favicon/og-home.jpg"
+    />
+    <meta property="og:image:type" content="image/jpeg" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta
+      property="og:image:alt"
+      content="The Thaliath Family, an ancient Syrian Catholic heritage, Puthenpally, Varapuzha, Kerala"
     />
     <meta name="twitter:card" content="summary_large_image" />
-    <meta property="twitter:domain" content="thaliathfamily.com" />
-    <meta property="twitter:url" content="https://thaliathfamily.com/" />
-    <meta name="twitter:title" content="Thaliath Family - Heritage & Legacy" />
+    <meta name="twitter:domain" content="thaliathfamily.com" />
+    <meta name="twitter:url" content="https://thaliathfamily.com/" />
+    <meta
+      name="twitter:title"
+      content="Thaliath Family | Heritage of Puthenpally, Varapuzha"
+    />
     <meta
       name="twitter:description"
-      content="Discover the rich heritage and legacy of the Thaliath family, rooted in Syrian Catholic traditions in Puthenpally, Varapuzha, Kerala, India"
+      content="Discover the heritage of the Thaliath family, rooted in Syrian Catholic traditions in Puthenpally, Varapuzha, on the banks of the Periyar River in Kerala."
     />
     <meta
       name="twitter:image"
-      content="https://raw.githubusercontent.com/Thaliath-Charity-Fund/thaliathfamily.com/refs/heads/main/favicon/og.png"
+      content="https://thaliathfamily.com/favicon/og-home.jpg"
     />
+    <meta
+      name="twitter:image:alt"
+      content="The Thaliath Family, an ancient Syrian Catholic heritage, Puthenpally, Varapuzha, Kerala"
+    />
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "Organization",
+            "@id": "https://thaliathfamily.com/#organization",
+            "name": "Thaliath Charity Fund",
+            "url": "https://thaliathfamily.com/",
+            "logo": "https://thaliathfamily.com/favicon/android-chrome-512x512.png",
+            "foundingDate": "1954",
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "Thaliath Charity Fund Building, Puthenpally",
+              "addressLocality": "Varapuzha",
+              "addressRegion": "Kerala",
+              "addressCountry": "IN"
+            }
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://thaliathfamily.com/#website",
+            "name": "Thaliath Family",
+            "url": "https://thaliathfamily.com/",
+            "inLanguage": "en",
+            "publisher": {
+              "@id": "https://thaliathfamily.com/#organization"
+            }
+          }
+        ]
+      }
+    </script>
     <link rel="stylesheet" href="main.css" />
     <script src="main.js" defer></script>
   </head>
@@ -66,7 +122,7 @@
 
     <header class="header" id="header">
       <nav class="nav-container">
-        <a href="#" class="logo">Thaliath Family</a>
+        <a href="index.html" class="logo">Thaliath Family</a>
         <ul class="nav-links" id="navLinks">
           <li><a href="#home">Home</a></li>
           <li><a href="#heritage">Heritage</a></li>
@@ -125,7 +181,7 @@
 
         <div class="features-grid">
           <div class="feature-card">
-            <div class="feature-icon">⛪</div>
+            <div class="feature-icon" aria-hidden="true">⛪</div>
             <h3>Syrian Catholic Roots</h3>
             <p>
               Our family's deep connection to the Syrian Catholic tradition has
@@ -135,7 +191,7 @@
           </div>
 
           <div class="feature-card">
-            <div class="feature-icon">🏞️</div>
+            <div class="feature-icon" aria-hidden="true">🏞️</div>
             <h3>Settled in Puthenpally, Varapuzha</h3>
             <p>
               Nestled on the peaceful banks of the Periyar River, our family has
@@ -145,7 +201,7 @@
           </div>
 
           <div class="feature-card">
-            <div class="feature-icon">📜</div>
+            <div class="feature-icon" aria-hidden="true">📜</div>
             <h3>Ancient Lineage</h3>
             <p>
               Tracing our ancestry back through generations, we honor the
@@ -154,7 +210,7 @@
           </div>
 
           <div class="feature-card">
-            <div class="feature-icon">🤝</div>
+            <div class="feature-icon" aria-hidden="true">🤝</div>
             <h3>Family Unity</h3>
             <p>
               Through gatherings, celebrations, and shared memories, we maintain
