@@ -388,6 +388,19 @@ body {
   margin-top: 1.5rem;
 }
 
+.prose a {
+  color: var(--emerald-700);
+  font-weight: 600;
+  text-decoration: underline;
+  text-decoration-color: var(--gold-400);
+  text-underline-offset: 3px;
+  transition: color 0.3s ease;
+}
+
+.prose a:hover {
+  color: var(--emerald-600);
+}
+
 .bg-emerald {
   background: linear-gradient(
     135deg,
